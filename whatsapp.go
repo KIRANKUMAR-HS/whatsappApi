@@ -12,7 +12,7 @@ func main() {
 	client := twilio.NewRestClient()
 
 	params := &api.CreateMessageParams{}
-	params.SetTo("whatsapp:+918217325610")
+	params.SetTo("whatsapp:+91821732***")
 	params.SetFrom("whatsapp:+14155238886")
 	params.SetBody("Hello from Golang!")
 
